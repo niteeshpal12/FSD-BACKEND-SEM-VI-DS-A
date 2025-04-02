@@ -11,6 +11,7 @@ const Delete = () => {
     }
   return (
     <div>
+        <h1>Delete user</h1>
         <form action="" onSubmit={handleDelete}>
             <input type="text" placeholder='Enter product id' name="id"/>
             <button type='submit'>Delete</button>
